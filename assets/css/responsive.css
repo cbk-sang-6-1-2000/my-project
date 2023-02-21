@@ -1,0 +1,29 @@
+#header .nav_menu-btn {
+    color: #fff;
+    font-size: 20px;
+    line-height: 46px;
+    padding: 0 21px;
+}
+
+#header .nav-menu{
+    float: left;
+    display: none;
+}
+
+@media (max-width: 740px) and (min-width: 1024px) {
+    
+}
+
+@media (max-width: 740px) {
+    #header .nav-menu {
+        display: block;
+    }
+
+    #nav {
+        display: none;
+    }
+    #nav >li {
+        display: block;
+    }
+
+}
